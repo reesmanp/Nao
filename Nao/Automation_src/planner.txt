@@ -1,0 +1,24 @@
+;; parsed domain: ailab
+;; parsed problem: circlelab
+;;GROUNDING GOALS
+;; Goal: (prepareforwork rob) 11 Deadline: Infinity hard RewardC: 0.0 Penalty: 0.0
+;; Goal: (at rob fronthall) 14 Deadline: Infinity hard RewardC: 0.0 Penalty: 0.0
+;;Reachable: Fluents: 1 Propositions: 15 Actions: 10
+;;Dynamic: Fluents: 0 Propositions: 5 Actions: 9
+;;Parsing & grounding: 75 milliseconds.
+;; grounded first orders
+;;SELECTED GOALS: [11, 14]
+
+;;<<< Start Searching for Solution >>>
+h: 3.0 g: 0.0 hCost: 3.0 gCost: 0.0 generated: 1 explored: 0 bound: 0.0
+h: 2.0 g: 1.0 hCost: 2.0 gCost: 1.0 generated: 3 explored: 1 bound: 0.0
+h: 1.0 g: 2.0 hCost: 1.0 gCost: 2.0 generated: 8 explored: 3 bound: 0.0
+h: 0.0 g: 3.0 hCost: 0.0 gCost: 3.0 generated: 14 explored: 5 bound: 0.0
+0.00: (getready rob)[0.0078125]
+0.01: (move rob backhall righthall)[0.0078125]
+0.02: (move rob righthall fronthall)[0.0078125]
+;; EOP
+h: 1.0 g: 2.0 hCost: 1.0 gCost: 2.0 generated: 21 explored: 10 bound: 0.0
+h: 0.0 g: 3.0 hCost: 0.0 gCost: 3.0 generated: 25 explored: 11 bound: 0.0
+
+; Exhausted Queue.
